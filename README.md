@@ -1,1 +1,3 @@
-# Pakize-Hoca-Bitirme
+# Bitirme
+
+Kendall Correlation
