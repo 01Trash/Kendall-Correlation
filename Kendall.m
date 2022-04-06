@@ -16,6 +16,4 @@ X = table2array(X);
 % Y değerlerini array yap
 Y = table2array(Y);
 
-X + Y
-
 
