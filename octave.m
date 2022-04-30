@@ -3,8 +3,8 @@ pkg load io
 
 %%% Özellikle işlem yapılmak istenilen yerleri al %%%
 % DN => gün
-% X => deniz yüksekliği
-% Y => elipsoit yüksekliği
+% X => elipsoit yüksekliği
+% Y => deniz yüksekliği
 
 %%% Verileri çek
 filename = 'data.ods';
@@ -66,7 +66,7 @@ for i = 1:n;
     endfor
 
     K = (2.0 / (n*(n-1.0))) * toplam;
-    fprintf("%.3d K: %4.13f\n", i, K);
+    %fprintf("%.3d K: %4.13f\n", i, K);
 
     grafik(i,1) = K;
 
@@ -75,4 +75,5 @@ for i = 1:n;
 endfor
 
 
+fprintf("Kendall: %4.13f\n", K);
 
